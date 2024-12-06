@@ -4,9 +4,9 @@ Module SQLConnect
     Public datacon As New MySqlConnection
 
     Dim server As String = "127.0.0.1"
-    Dim dbasename As String = "PayrollSystem"
-    Dim username As String = "root"
-    Dim passwd As String = "0000"
+    Dim dbasename As String = "" ' db schema
+    Dim username As String = ""
+    Dim passwd As String = ""
 
     Public Sub databaseConnect()
         Try
